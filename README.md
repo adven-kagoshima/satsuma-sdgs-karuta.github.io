@@ -1,0 +1,1 @@
+# satsuma-sdgs-karuta.github.io
