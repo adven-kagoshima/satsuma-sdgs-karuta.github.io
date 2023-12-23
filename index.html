@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | satsuma-sdgs-karuta</title>
+    <title>Unity WebGL Player | SDGsの17のミッションクリアなるか</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">satsuma-sdgs-karuta</div>
+        <div id="unity-build-title">SDGsの17のミッションクリアなるか</div>
       </div>
     </div>
     <script>
@@ -57,14 +57,14 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/satsuma-sdgs-karuta.loader.js";
+      var loaderUrl = buildUrl + "/karuta.loader.js";
       var config = {
-        dataUrl: buildUrl + "/satsuma-sdgs-karuta.data",
-        frameworkUrl: buildUrl + "/satsuma-sdgs-karuta.framework.js",
-        codeUrl: buildUrl + "/satsuma-sdgs-karuta.wasm",
+        dataUrl: buildUrl + "/karuta.data",
+        frameworkUrl: buildUrl + "/karuta.framework.js",
+        codeUrl: buildUrl + "/karuta.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "satsuma-sdgs-karuta",
+        companyName: "App Factory Haruni Co.,Ltd.",
+        productName: "SDGsの17のミッションクリアなるか",
         productVersion: "0.9.0",
         showBanner: unityShowBanner,
       };
@@ -98,7 +98,7 @@
         canvas.style.height = "480px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/satsuma-sdgs-karuta.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/karuta.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
